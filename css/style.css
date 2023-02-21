@@ -1,4 +1,5 @@
 /********** Template CSS **********/
+
 :root {
     --primary: #6244C5;
     --secondary: #FFC448;
@@ -26,6 +27,7 @@
 
 
 /*** Spinner ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -41,6 +43,7 @@
 
 
 /*** Button ***/
+
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -78,6 +81,7 @@
 
 
 /*** Navbar ***/
+
 .navbar.fixed-top {
     display: none;
     transition: .5s;
@@ -97,13 +101,14 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
 }
 
 
 /*** Header ***/
+
 #home {
     margin-bottom: 6rem;
     background: url(../img/bg-header.png) left top no-repeat;
@@ -174,7 +179,6 @@
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
         opacity: 1;
     }
-
     100% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
         opacity: 0;
@@ -208,6 +212,7 @@
 
 
 /*** About ***/
+
 #about .years .display-1 {
     font-size: 10rem;
     line-height: 9rem;
@@ -220,6 +225,7 @@
 
 
 /*** Skills ***/
+
 #skill .progress {
     height: 5px;
     border-radius: 5px;
@@ -245,6 +251,7 @@
 
 
 /*** Service ***/
+
 .service-item .bg-icon {
     width: 100px;
     height: 100px;
@@ -257,6 +264,7 @@
 
 
 /*** Project Portfolio ***/
+
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
@@ -299,6 +307,7 @@
 
 
 /*** Team ***/
+
 .team-item img {
     transition: .5s;
 }
@@ -334,6 +343,7 @@
 
 
 /*** Testimonial ***/
+
 .testimonial-left,
 .testimonial-right {
     position: relative;
